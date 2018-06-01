@@ -91,9 +91,6 @@ def customer():
         shopall()
     if selection == 1:
         shop()
-    else:
-        input("\nInvalid selection\nPress enter to continue\n")
-        customer()
 
 
 def shop():
